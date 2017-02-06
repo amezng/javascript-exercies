@@ -34,6 +34,7 @@ Example.
    AddToWindow(window);
    window.showStorageLength()
   ```
+
 ### Function context
 
 1. Create a Person object using "var" keyword, with properties name,age. Create a function which takes "Person" object and doubles the age, and return the updated object.
@@ -44,4 +45,5 @@ Example
         ...
         return this;
       }
+  ```
 2. Make the above function makeHimOld a property of Person object and then try calling using Person object reference. See the difference.
