@@ -16,11 +16,12 @@ Example :
 3. Create a function to add two numbers and call the function using this keyword
 4. Create a function which takes a window object and displays the innerHeight and innerWidth. Call this function by passing the "this"
 Example.
-```javascript
-  function MyFunc(){...}
-  MyFunc(this)
-```
-5. Add a function "showStorageLength" as a property to the window object, using this keyword. This function should show the number of elements in the localStorage The function must be accessible using the this keyword in the global scope, as depicted below.
+  ```javascript
+   function MyFunc(){...}
+   MyFunc(this)
+  ```
+5. Add a function "showStorageLength" as a property using prototype keyword, to the window object, (use this). This function should show the number of elements in the localStorage The function must be accessible using the this/window keyword in the global scope, as depicted below.
 ```javascript
   this.showStorageLength()
+  window.showStorageLength()
 ```
