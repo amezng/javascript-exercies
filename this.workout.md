@@ -16,6 +16,7 @@ Example :
 3. Create a function to add two numbers and call the function using this keyword
 4. Create a function which takes a window object and displays the innerHeight and innerWidth. Call this function by passing the "this"
 Example.
+
   ```javascript
    function MyFunc(){...}
    MyFunc(this)
